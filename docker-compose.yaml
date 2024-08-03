@@ -9,6 +9,7 @@ services:
       - mongo
     environment:
       - DB_CONNECTION_STRING=mongodb://mongo:27017/demo
+      - PORT=3000
     volumes:
       - .:/app
 
