@@ -35,7 +35,7 @@ npm install
 
 2. Start the Server
 ```bash
-node app.js
+node src/app.js
 
 OR 
 
